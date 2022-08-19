@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.first-son{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/gabriel-gheorghe-pfl6trccckQ-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.sec-son{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+ 
+}
+.logo img{
+    width: 30%;
+    background-color: rgb(202, 201, 121);
+    border-radius: 20px;
+    align-items: center;   
+}
+.logo h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(255, 69, 1);
+    padding-top: 20px;
+ 
+    
+}
+.logo{
+     padding-bottom: 20px;
+     padding-top:20px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 0 0 4px 0 rgb(14, 10, 10),
+                0 0 8px 0 ;
+
+}
+.pix{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.text{
+    padding: 30px;
+
+    
+}
+.text p{
+    padding-bottom: 20px;
+    
+    
+}
+
+.text h3{
+    padding-top: 20px;
+    
+}
+.form{
+    padding-top: 30px;
+    background-color: mintcream;
+    height: 40%;
+    padding: 30px;
+    box-shadow: 0 0 4px 0 rgb(238, 222, 222),
+                0 0 8px 0 ;
+
+    
+}
+.text a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 170, 142);
+    border: none;
+}
+.text a:hover{
+    color: blue;
+    background-color: mintcream;
+}
+.form-1{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+.form-1 input{
+    width: 100%;
+    background-color: transparent;
+    height: 25px;
+}
+.form h4{
+    padding-bottom: 20px;
+}
+.btn{
+    border: none;
+    padding-top: 50px;
+    
+}
+.btn input{
+    border: none;
+    padding: 8px 35px;
+    color: blue;
+    background-color: rgb(247, 95, 95);
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn a{
+    text-decoration: none;
+}
+.btn-1 input{
+    border: none;
+    padding: 8px 35px;
+    color: blue;
+    background-color: rgb(247, 95, 95);
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-1{
+    display: none;
+}
+
+@media(max-width: 750px){
+    .text p{
+        font-size: 15px;
+    }
+    .text a{
+        font-size: 11px;
+    }
+    .text h3{
+        font-size: 13px;
+    }
+    .form-1{
+       flex-direction: column;
+      gap: 0.1rem;
+      
+    }
+    .form{
+        height: 65vh;
+    }
+    .form-1 br{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .btn-1{
+        display: block;
+        padding-top: 20px;
+    }
+}
